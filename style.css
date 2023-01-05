@@ -1,0 +1,757 @@
+.col-1 {
+    grid-area: col-1;
+}
+.col-2 {
+    grid-area: col-2;
+}
+.col-3 {
+    grid-area: col-3;
+}
+.col-4 {
+    grid-area: col-4;
+}
+.col-5 {
+    grid-area: col-5;
+}
+* {
+    margin: 0;
+}
+body {
+    background-color: #f0f0f0;
+    font-family:IRANSans,Tahoma;
+}
+h3 {
+    font-size: 17px;
+    color: #707070;
+    margin-bottom: 12px;
+    font-family: IRANSans,Tahoma;
+}
+a {
+    text-decoration: none;
+}
+.menu-bar {
+    background-color: #242424;
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
+}
+.menu-bar ul li a:hover {
+    color: aliceblue;
+}
+.menu-bar ul li a {
+    color: #858585;
+}
+.menu {
+    margin: 15px 0;
+    margin-right: 190px;
+}
+.about {
+    margin: 15px 0 15px 15px;
+}
+.menu-bar ul li {
+    display: inline-block;
+    padding-left: 15px;
+}
+.nav-bar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
+}
+.nav-bar ul li {
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 16px;
+}
+.nav-bar ul li a {
+    color: white;
+}
+.product {
+    margin: 15px 0;
+}
+.product ul li button {
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: #858585;
+    color: white;
+    font-size: 16px;
+}
+.product ul li button:hover {
+    background-color: crimson;
+} 
+.icon {
+    margin: 15px 0 15px 15px;
+}
+.icon ul li {
+    margin-right: 19px;
+}
+.banner {
+    width: 100%;
+}
+.display-body {
+    width: 50%;
+    border: 1px solid black;
+    display: table;
+    margin: 5px auto;
+    height: 100px;
+}
+.sumsung {
+    display: table-cell;
+    vertical-align: top;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.sumsung a img {
+    width: 80px;
+}
+.banner a {
+    color: black;
+}
+.logo-samsung {
+    display: table-cell;
+    vertical-align: bottom;
+    padding-bottom: 50px;
+}
+.pictur {
+    display: table-cell;
+    width:calc(100% / 2);
+    height: 80px;
+}
+.pictur a img {
+    float: right;
+    height: 200px;
+}
+.table-bar {
+    display: flex;
+    direction: rtl;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.table-bar1 {
+    width: calc(100% - 300px);
+    display: grid;
+    gap: 0 2px;
+    height: 600px;
+    grid-template-areas: 'col-1 col-1 col-2' 'col-1 col-1 col-5' 'col-3 col-4 col-5';
+    direction: rtl;
+    margin:10px auto;
+    position: relative;
+}
+.col-1 {
+    background-image: url('image/images\ \(1\).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 75% 65%;
+    position: relative;
+}
+.col-2 {
+    background-image: url('image/images\ \(2\).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 75% 65%;
+    position: relative;
+}
+.col-3 {
+    background-image: url('image/download\ \(1\).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 55% 65%;
+    position: relative;
+}
+.col-4 {
+    background-image: url('image/download\ \(2\).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 40% 65%;
+    position: relative;
+}
+.col-5 {
+    background-image: url('image/images\ \(3\).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 65%;
+    position: relative;
+}
+.intro-item-caption {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    left: 10px;
+    color: white;
+    font-size: 20px;
+    font-family:IRANSans,Tahoma;
+}
+.intro-item-caption p {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    padding:0 5px;
+}
+.table-bar2 {
+    width: 300px;
+    display: grid;
+    height: 600px;
+    grid-template-columns: auto ;
+    margin:10px 5px;
+}
+.col-6 {
+    background-image: url('image/msi-monitor-banner-300.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 65%;
+    position: relative;
+    margin-bottom: 5px;
+}
+.col-7 {
+    background-image: url('image/zoomit-300x250.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 65%;
+    position: relative;
+}
+.proposition {
+    direction: rtl;
+    width: 90%;
+    margin: 2px auto;
+}
+.complex {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 0 10px;
+}
+.col-sm-2 {
+    margin-top: 20px;
+}
+.col-sm-2 img {
+    width: 100%;
+    height: 120px;
+}
+.col-sm-2 p {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 21px;
+    margin: 15px 5px;
+    font-family: IRANSans,Tahoma;
+}
+.content {
+    direction: rtl;
+    width: 90%;
+    margin: 15px auto;
+    display: flex;
+    height: 3130px;
+}
+.midele {
+    width: 60%;
+    margin: 5px 20px;   
+}
+.section-main {
+    overflow-y: scroll;
+    height: 3020px;
+}
+.title {
+    font-size: 17px;
+    background: #f5f5f5;
+    padding: 13px 10px 10px;
+    line-height: 14px;
+    margin-top: 0;
+}
+.side-bar-left {
+    width: 20%;
+}
+.side-bar-right {
+    width: 20%;
+}
+.img-responsive a img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+.bg-white {
+    background: #fff;
+}
+.item-list-row {
+    padding-top: 20px;
+}
+.col-md-4 {
+    display: flex;
+    border-bottom: 1px solid #f5f5f5;
+    margin: 10px 15px 20px;
+    padding-bottom: 25px;
+}
+.title-bar {
+    margin: 2px 12px ;
+    font-family: IRANSans,Tahoma;
+}
+.heading {
+    color: #555;
+    font-weight: 400;
+}
+.title-bar h3 {
+    color: #333;
+}
+.data-list {
+    font-weight: 300;
+    font-size: 11px;
+    color: #999;
+    margin-bottom: 8px;
+    font-family: IRANSans_FaNam;
+}
+.text {
+    text-align: justify;
+    line-height: 27px;
+    color: #666;
+    font-size: 15px;
+}
+.title-bar h3:hover {
+    color:#e51a2d;;
+}
+.IsFeatured {
+    border-bottom: 1px solid #f5f5f5;
+    margin: 10px 15px 20px;
+    padding-bottom: 25px;
+}
+.item-list-img {
+    width: 97%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto 12px;
+}
+.img-1 {
+    background-image: url('image/images\ \(5\).jpg'); 
+}
+.img-2 {
+    background-image: url('image/download\ \(4\).jpg');
+}
+.img-3 {
+    background-image: url('image/12tt.jpg');
+}
+.img-4 {
+    background-image: url('image/redmii-pad.jpg');
+    background-position: 90% 30%;
+}
+.item-list-text {
+    margin: 2px 12px ;
+    font-family: IRANSans,Tahoma;
+}
+.item-list-text h3:hover {
+    color:#e51a2d;;
+}
+.numbering {
+    width: 100%;
+    font-family: IRANSans,Tahoma;
+    color: #666;;
+}
+.numbering div {
+    display: flex;
+    justify-content: space-between;
+}
+.page {
+    margin-right: 20px;
+}
+.icon {
+    margin: 0 10px;
+}
+.icon ul li {
+    list-style-type: none;
+     display: inline-block; 
+}
+.side-left-text {
+    background-color: #fff;
+    margin-bottom: 15px;
+}
+.side-left-image img {
+    width: 100%;
+}
+.side-left-sub {
+    margin: 20px 10px;
+    padding-bottom: 10px;
+}
+.side-left-sub a {
+    color: #555;
+    font-family: IRANSans,Tahoma;
+    font-size: 14px;
+}
+.side-left-sub a:hover {
+    color: #e51a2d;
+}
+.ejucation {
+    background-color: #fff;
+}
+.part {
+    display: flex;
+    padding: 10px 10px 10px;
+    border-bottom: 1px solid #f5f5f5 ;
+}
+.side-right-img {
+    width: 40%;
+}
+.side-right-text {
+    margin-right: 20px;
+}
+.side-right-text a {
+    color: #555;
+    font-size: 13px;
+    font-family: IRANSans,Tahoma;
+}
+.side-right-text a:hover {
+    color: #e51a2d;
+}
+.list-item-row {
+    display: flex;
+    padding: 10px 20px;
+    border-bottom: 1px solid #f5f5f5;
+}
+.list-item-row a {
+    color: #555;
+    font-size: 14px;
+    font-family: IRANSans,Tahoma;
+}
+.comment-counter {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.banner-section {
+    margin: 20px 0;
+}
+.title-section {
+    direction: rtl;
+    background-color: #f0f0f0;
+    width: 87%;
+    margin: 20px auto;
+}
+.title-section h2 {
+    color: #e51a2d;
+    font-size: 24px;
+    line-height: 1.7px;
+    font-family:IRANSans,Tahoma ;
+}
+.is-flex {
+    display: flex;
+    direction: rtl;
+    width: 87%;
+    margin: 30px auto;
+    height: 500px;
+}
+.solid-right {
+    width:20%;
+    background: #e51a2d;
+    color: #fff;
+    padding: 15px;
+    height: auto;
+    margin-left: 15px;
+    position: relative;
+}
+.solid-right a {
+    color: #fff;
+    text-decoration: none;
+    font-family:IRANSans,Tahoma ;
+}
+.solid-right a h4 {
+    margin: 12.5px 0;
+    font-size: 20px;
+}
+.solid-right a p {
+    line-height: 27px;
+    margin: 0 0 10px;
+}
+.footer-section {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 8px;
+    border-top: 1px solid #fff;
+    margin: 0 auto;
+    width: 93%;
+    left: 0;
+    color: #fff;
+}
+.buyingguide {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 20px;
+    width: 80%;
+}
+.row-mobile {
+    height: 100%;
+    background-color: #fff;
+}
+.sum-col-6 {
+    width: 100%;
+}
+.item-list-image a img {
+    width: 100%;
+    height: 150px;
+}
+.item-list-txt {
+    margin: 10px 5px ;
+}
+.item-list-txt a h6 {
+    color: #e51a2d;
+    line-height: 20px;
+    font-family: IRANSans,Tahoma ;
+}
+.item-list-txt a p {
+    color: #555;
+    font-family: IRANSans,Tahoma ;
+    font-size: 12px;
+}
+.reviewp {
+    direction: rtl;
+    width: 87%;
+    margin: 40px auto ;
+}
+.checking {
+    margin-bottom: 20px;
+}
+.checking h2 a {
+    color: #555;
+    font-family: IRANSans,Tahoma;
+    font-size: 30px;
+}
+.row {
+    display: flex;
+    height: 590px;
+}
+.col-md-6 {
+    background-image: url('image/download\ \(8\).jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: calc( 50% - 10px);
+    position: relative;
+    margin-left: 20px;
+}
+.hgroup  {
+    position: absolute;
+    right: 20px;
+    left: 30px;
+    bottom: 10px;
+}
+.hgroup h3 {
+    font-size: 32px;
+    font-family:IRANSans,Tahoma ;
+    font-weight: 500;
+    color: #fff;
+}
+.pad5A-T {
+    width:calc( 50% - 10px) ;
+}
+.row-10 {
+    height: calc( 60% - 10px);
+    display: flex;
+}
+.xiaomi {
+    width: calc( 60% - 10px);
+    margin-left: 20px;
+    background-image: url('image/images\ \(6\).jpg');
+    background-position:65% 35%;
+    background-size: cover;
+    position: relative;
+}
+.intel {
+    width: calc( 65% - 10px);
+    background-image: url('image/download\ \(13\).jpg');
+    background-position:65% 35%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.item-text {
+    position: absolute;
+    right: 20px;
+    left: 30px;
+    bottom: 10px;
+}
+.item-text h3 {
+    font-size: 20px;
+    font-family:IRANSans,Tahoma ;
+    font-weight: 500;
+    color: #fff;
+}
+.row-11 {
+     display: flex;
+     height: calc( 35% - 10px);
+     margin-top: 20px;
+     gap: 5px;
+}
+.sum-col-4 {
+    width:calc(calc(100% - 10px)); 
+    height: 100%;
+}
+.item-list-text-1 {
+    margin-top: 5px;
+}
+.item-list-text-1 a p {
+    font-family:IRANSans,Tahoma;
+    color: #555;
+    font-size: 15px;
+}
+footer {
+    background-color: #222;
+    padding: 25px 0 0;
+    color: #fff;
+}
+.footnet {
+    background-color: black;
+    color: white;
+}
+.row1-footer {
+    display: flex;
+    direction: rtl;
+    padding: 10px 50px;
+    border-bottom: 1px solid #858585;
+}
+.row1-footer h3 {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family:IRANSans,Tahoma;
+}
+.item-list-image-2 {
+    width: 30%;
+    height: 100px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+.item-list-image-2 a img {
+    width: 100%;
+    height: 80%;
+}
+.item-list-text-2 {
+    width: calc(70% - 20px);
+    height: 100px;
+    font-size: 14px;
+    font-family: IRANSans,Tahoma;
+}
+.item-list-text-2 a h4 {
+    color: #aaa;
+    transition: color 0.2s;
+}
+.item-list-text-2 a h4:hover {
+    color: #e51a2d;
+}
+.more {
+    width: calc(100% / 4 );
+    margin-top: 10px;
+}
+.tecnology {
+    width: calc(100% / 4 );
+    margin: 10px 20px;
+}
+.user {
+    width: calc(100% / 4 );
+}
+.user ul {
+    margin: 0;
+    padding: 0;
+}
+.user ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.user ul li a {
+    color: #aaa;
+    font-size: 16px;
+    font-family: IRANSans,Tahoma;
+    transition: color 0.2s;
+}
+.user ul li a:hover {
+    color: #e51a2d;
+}
+.family-zoomit {
+    width: calc(100% / 4 );
+}
+.family-zoomit ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.family-zoomit ul li {
+    margin-bottom: 10px;
+}
+.family-zoomit ul li a {
+    color: #aaa;
+    font-size: 16px;
+    font-family: IRANSans,Tahoma;
+    transition: color 0.2s;
+}
+.family-zoomit ul li a:hover{
+    color: #e51a2d;
+}
+.family-zoomit h4 {
+    font-family: IRANSans,Tahoma ;
+    font-size: 13px;
+    margin-bottom: 3px;
+}
+.family-zoomit form {
+    display: inline-block;
+}
+.email {
+    width: 200px;
+    height: 25px;
+    padding: 8px;
+    background-color: #3f3f3f;
+    color: #aaa;
+    border-color: transparent;
+    font-size: 13px;
+    font-family: IRANSans,Tahoma;
+    font-weight: 400;
+    border-right: 1px solid white;
+}
+.btn-red {
+    width: 50px;
+    height: 45px;
+    padding: 8px;
+    background-color: #e51a2d;
+    margin-right: -4px;
+    margin-top: 5px;
+    border: none;
+    border-right: 1px solid white;
+    color: #fff;
+    font-size: 15px;
+    font-family: IRANSans,Tahoma;
+    text-align: center;
+    cursor: pointer;
+    z-index: 10;
+}
+.row2-footer {
+    display: flex;
+    direction: rtl;
+    padding: 30px 50px 20px;
+}
+.logo {
+    width: 200px;
+    margin-left: 100px;
+}
+.server {
+    font-size: 16px;
+    font-family: IRANSans,Tahoma;
+}
+.item-list-row-2 {
+    display: flex;
+}
+.footnet {
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
+    padding: 10px 50px;
+}
+.footnet p {
+    font-family: IRANSans,Tahoma;
+    font-size: 12px;
+}
+.footnet ul li {
+    display: inline-block;
+    padding-left: 12px;
+}
+.footnet ul li a {
+    color: #fff;
+    font-size: 15px;
+    font-family: IRANSans,Tahoma;
+}
